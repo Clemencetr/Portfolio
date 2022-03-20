@@ -1,0 +1,20 @@
+*{margin:0; padding:0;}
+
+#warpper{
+    position:absolute;
+    width:1666px;
+    height:976px;
+    background:url(../images/capture.png)no-repeat;
+    margin:0 auto;
+    z-index:-1;
+}
+
+iframe{
+    position:absolute;
+    width:300px;
+    height:600px;
+    right:333px;
+    top:111px;
+    border:1px solid black;
+    z-index:999;
+}

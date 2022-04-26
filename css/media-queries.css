@@ -138,7 +138,7 @@
 @media screen and (max-width:768px){
     .wrapper{width:85%;}
     #propos{margin:0;}
-    #btn-top{left:92%;}
+    #btn-top{left:90%;}
 }
 
 @media screen and (max-width:750px){
@@ -179,7 +179,7 @@
     #web_smart{width:100%;}
     #motion_smart{width:100%;}
     #border-cv{top:-605px; left:-5%;}
-    left{left:90%;}
+    left{left:86%;}
 }
 
 @media screen and (max-width:516px){

@@ -302,22 +302,31 @@ $(function(){
         //affiche bouton fermeture
         $(".close").css("display", "block");
     });
-
+ 
     //si on clique sur le bouton, on ferme la modal en modifiant le css
     $(".close").on("click", function(){
         $("#myModal11").css("display", "none");
     });
     
-    
+         //quand on clique sur une image
+    $("#comundi img").on('click', function(){
+        //affichage de la modal en modifiant le css de la modal
+        $("#myModal12").css("display", "flex");
 
-    // $(window).bind('scroll',function(){
-    //     if ($(window).scrollTop() > 770){
-    //         console.log('coucou');
-    //         $('.desk p').css({color: '#455e97'});
-    //     } else {
-    //         $('.desk p').css({color: 'white'});
-    //     }
-    // });
+        //ajout de la source de l'image dans le contenu de la modal en fonction de la source de l'image cliquée
+        $(".web").attr("src", $(this).attr("src"));
+
+        //affiche bouton fermeture
+        $(".close").css("display", "block");
+    });
+
+    
+    //si on clique sur le bouton, on ferme la modal en modifiant le css
+    $(".close").on("click", function(){
+        $("#myModal12").css("display", "none");
+    });
+    
+    
 
     
     $('#aries').on('click',function(){

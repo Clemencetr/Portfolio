@@ -138,10 +138,6 @@
     left{left:90%;}
 }
 
-@media screen and (max-width:516px){
-    #propos{font-size:25px;}
-}
-
 @media screen and (max-width:500px){
     figure{margin:10px 0 30px 0;}
     

@@ -212,6 +212,13 @@
     #border-cv{top:-605px; left:-10%;}
 }
 
+@media screen and (max-width:500px){
+    #competences-programmes{
+        display:block;
+        width:35%;
+    }
+}
+
 @media screen and (max-width:477px){
     #cv{left:10%;}
     .container{width:310px;}

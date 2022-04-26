@@ -229,7 +229,5 @@
 }
 
 @media screen and (max-width:440px){
-    #cv{left:11%;}
-    figure{margin:0;}
     .container{flex-direction:inherit;}
 }

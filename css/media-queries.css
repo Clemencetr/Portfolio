@@ -95,7 +95,7 @@
 }
 
 @media screen and (max-width:768px){
-    .wrapper{width:85%;}
+    .wrapper{width:80%;}
     #btn-top{left:87%;}
 }
 
@@ -103,11 +103,12 @@
     .desk{display:none;}
     #m_burger{display:block; position:fixed;margin-left:88%}
     .smart{display:block;}
+    .full p:last-child{font-size:25px;}
     .container1{flex-direction:column; justify-content:center;}
     #propos{width:90%; font-size:17px;}
     #picture{display:none;}
     #picture_original{display:block;}
-    .container{flex-direction:column; width:330px; margin:0 auto;}
+    .container{width:330px; margin:0 auto;}
     #print{display:none; cursor:auto;}
     #print_smart{display:block;}
     #citation{width:332px; height:290px; border:0.1px solid #9a9999;}
@@ -148,8 +149,4 @@
 @media screen and (max-width:477px){
     #m_burger{margin-left:84%}
     .container{width:310px;}
-}
-
-@media screen and (max-width:440px){
-    .container{flex-direction:inherit;}
 }

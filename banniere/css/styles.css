@@ -1,0 +1,18 @@
+*{margin:0;padding:0;}
+
+#wrapper{
+	position:relative;
+	width:1210px;
+	height:938px;
+	background:url(../images/Capture.JPG)no-repeat;
+	margin:0 auto;
+    overflow:hidden;
+}
+
+iframe{
+	position:absolute;
+	width:300px;
+	height:600px;
+	top:249px;
+	right:87px;
+}

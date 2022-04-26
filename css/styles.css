@@ -151,7 +151,7 @@ main{
 }
 
 .wrapper{
-    width:/*77%;*/1350px;
+    width:1350px;
     margin:0 auto;
 }
 
@@ -179,12 +179,6 @@ h1{
     width:61%;
     text-align:center;
     font-family: 'Ubuntu', sans-serif;
-}
-
-#photo{
-    position:relative;
-    left:7%;
-    max-width:100%;
 }
 
 h2{
@@ -275,29 +269,6 @@ hr{
     
 }
 
-.year img{
-    width:400px;
-    height:auto;
-    margin-top:120px;
-    position:relative;
-    left:43%;
-}
-
-.year2{
-    font-size:60px;
-    color:#313f4f;
-    margin:40px 0 40px 0;
-    
-}
-
-.year2 img{
-    width:400px;
-    height:auto;
-    margin-top:120px;
-    position:relative;
-    left:40%;
-}
-
 .container{
     display:-webkit-box;
     -webkit-box-pack:justify;
@@ -323,7 +294,7 @@ figure{
 #print1:hover, #print2:hover, #print3:hover, #print4:hover, #print5:hover, #print6:hover{opacity:1;}
 
 #print_tab1, #print_tab2, #print_tab3, #print_tab4, #print_tab5, #print_tab6{
-    width: 330px;
+    width: 290px;
     display:none;
 }
 

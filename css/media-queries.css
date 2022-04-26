@@ -3,20 +3,13 @@
     figure{margin:10px 6px 0 6px;}
 }
 
-@media screen and (max-width:1535px){
-    #aries{bottom:215px;}
-    #border-cv{right:720px;}
-}
-
 @media screen and (max-width:1480px){
-    #border-cv{top:400px;}
     #propos{margin:0;}
 }
 
 @media screen and (max-width:1380px){
     .container{justify-content:space-around;}
     .container1{justify-content:space-between;}
-    #border-cv{top:450px;}
     .compet{padding:0 70px; justify-content:center;}
     .vignette{margin:20px 10px;}
 }
@@ -28,29 +21,14 @@
     .container1{height:430px;}
 }
 
-@media screen and (max-width:1278px){
-    #border-cv{right:520px;}
-}
-
 @media screen and (max-width:1238px){
     .container1{flex-direction:column; justify-content:center;height:inherit;}
-    #propos{width:100%;}
-    #photo{margin:70px 50%;left:0;}
-    #border-cv{top:-300px; right:30%;}
-    #border-cv img{position:relative;left:44.5%;}
-    #cv{left:1.8%;}
 }
-
-@media screen and (max-width:1227px){
-      #cv{left:2.2%;}
-}  
 
 @media screen and (max-width:1062px){
     .container{justify-content:space-around;}
-    #picto{width:318px;}
-    #picto img{height:65px;}
+    #picto{width:227px;}
     #picto a:nth-child(2){height:85px; margin:0 57px;}
-    #cv{left:3%;}
 }
 
 @media screen and (max-width:1024px){
@@ -93,12 +71,7 @@
 }
 
 @media screen and (max-width:981px){
-    #photo{margin:90px auto;}
-    #picture_original{margin-top:40px;}
-    #border-cv{top:-550px; left:-3%;}
-    #cv{position:relative; left:1.5%;}
     .compet img:nth-child(4){left:5%}
-    #cv{left:3.3%;}
     #propos p{margin-bottom:40px;}
 }
 
@@ -108,7 +81,7 @@
     #print_1024{display:none;}
     #print_smart{display:block;}
     figcaption{display:none;}
-    #citation{/*width:508px; height:445px;*/ border:0.1px solid #9a9999;}
+    #citation{border:0.1px solid #9a9999;}
     #web{cursor:auto; display:none;}
     #web:hover{opacity:1;}
     #web_1024{display:none;}
@@ -138,7 +111,7 @@
 @media screen and (max-width:768px){
     .wrapper{width:85%;}
     #propos{margin:0;}
-    #btn-top{left:90%;}
+    #btn-top{left:92%;}
 }
 
 @media screen and (max-width:750px){
@@ -179,7 +152,7 @@
     #web_smart{width:100%;}
     #motion_smart{width:100%;}
     #border-cv{top:-605px; left:-5%;}
-    left{left:86%;}
+    left{left:90%;}
 }
 
 @media screen and (max-width:516px){

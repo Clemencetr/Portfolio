@@ -352,7 +352,7 @@ figure{
 #web1:hover, #web2:hover, #web3:hover{opacity:1;}
 
 #web_tab1, #web_tab2, #web_tab3{
-    width: 330px;
+    width: 290px;
     display:none;
 }
 
@@ -368,7 +368,7 @@ figure{
 }
 
 #epub_tab1, #epub_tab2, #epub_tab3{
-    width: 330px;
+    width: 290px;
     display:none;
 }
 
@@ -408,7 +408,7 @@ figure{
 #motion1:hover, #motion2:hover, #motion3:hover{opacity:1;}
 
 #motion_tab1, #motion_tab2, #motion_tab3{
-    width: 330px;
+    width: 290px;
     display:none;
 }
 
@@ -429,7 +429,7 @@ video{
 
 #comundi_tab_img{
     display:none;
-    width:330px;
+    width:290px;
 }
 
 #comundi_smart_img{

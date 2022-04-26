@@ -104,6 +104,7 @@
 
 @media screen and (max-width:972px){
     .container{width:100%; margin:0 auto;}
+    figure{margin:10px 0 30px 0;}
     #print{display:none; cursor:auto;}
     #print_1024{display:none;}
     #print_smart{display:block;}

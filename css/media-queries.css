@@ -103,6 +103,7 @@
     .desk{display:none;}
     #m_burger{display:block; position:fixed;margin-left:88%}
     .smart{display:block;}
+    .full p{font-size:50px;}
     .full p:last-child{font-size:25px;}
     .container1{flex-direction:column; justify-content:center;}
     #propos{width:90%; font-size:17px;}

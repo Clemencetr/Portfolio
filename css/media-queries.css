@@ -117,6 +117,7 @@
     #web:hover{opacity:1;}
     #web_smart{display:block;}
     #motion{display:none; cursor:auto;}
+    video{width:370px;}
     #motion:hover{opacity:1;}
     #motion_smart{display:block;}
     #contact p:first-child{font-size:45px;}

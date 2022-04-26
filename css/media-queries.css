@@ -62,6 +62,7 @@
 
 @media screen and (max-width:972px){
     .container{width:100%; margin:0 auto;}
+    .section-purple{margin:100px 0;}
     #print{display:none; cursor:auto;}
     #print_1024{display:none;}
     #print_smart{display:block;}
@@ -103,7 +104,7 @@
     #m_burger{display:block; position:fixed;margin-left:88%}
     .smart{display:block;}
     .container1{flex-direction:column; justify-content:center;}
-    #propos{width:90%; font-size:17px; margin-bottom:70px;}
+    #propos{width:90%; font-size:17px;}
     #picture{display:none;}
     #picture_original{display:block;}
     .container{flex-direction:column; width:330px; margin:0 auto;}
@@ -123,32 +124,30 @@
 }
 
 @media screen and (max-width:600px){
+    #m_burger{margin-left:86%}
     #contact p:nth-child(2){width:95%;}
 }
 
 @media screen and (max-width:562px){
-    #photo{margin:100px auto;}
-    .year img{left:25%;}
-    .year2 img{left:20%;}
     #print_smart{width:100%;}
     #citation{border:none;width:100%;}
     #web_smart{width:100%;}
     #motion_smart{width:100%;}
-    #border-cv{top:-605px; left:-5%;}
     left{left:90%;}
+}
+
+@media screen and (max-width:516px){
+    #propos{font-size:19px;}
 }
 
 @media screen and (max-width:500px){
     figure{margin:10px 0 30px 0;}
-    
     #competences-programmes{display:block; width:160px;}
 }
 
 @media screen and (max-width:477px){
+    #m_burger{margin-left:84%}
     .container{width:310px;}
-    #picture_original{width:350px;}
-    .year img{width:300px;left:25%;}
-    .year2 img{width:300px;left:20%;}
 }
 
 @media screen and (max-width:440px){

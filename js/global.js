@@ -238,7 +238,7 @@ $(function(){
     
 
     //quand on clique sur une image
-    $("#prestige img").on('click', function(){
+    $("#oxirish img").on('click', function(){
         //affichage de la modal en modifiant le css de la modal
         $("#myModal8").css("display", "block");
 
@@ -257,7 +257,7 @@ $(function(){
     
     
     //quand on clique sur une image
-    $("#oxirish img").on('click', function(){
+    $("#google img").on('click', function(){
         //affichage de la modal en modifiant le css de la modal
         $("#myModal9").css("display", "block");
 
@@ -275,7 +275,7 @@ $(function(){
 
     
     //quand on clique sur une image
-    $("#google img").on('click', function(){
+    $("#saulbass img").on('click', function(){
         //affichage de la modal en modifiant le css de la modal
         $("#myModal10").css("display", "flex");
 
@@ -292,7 +292,7 @@ $(function(){
     });
     
      //quand on clique sur une image
-    $("#saulbass img").on('click', function(){
+    $("#comundi img").on('click', function(){
         //affichage de la modal en modifiant le css de la modal
         $("#myModal11").css("display", "flex");
 
@@ -309,7 +309,7 @@ $(function(){
     });
     
          //quand on clique sur une image
-    $("#comundi img").on('click', function(){
+    $("#dallasm img").on('click', function(){
         //affichage de la modal en modifiant le css de la modal
         $("#myModal12").css("display", "flex");
 

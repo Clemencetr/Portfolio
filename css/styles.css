@@ -388,8 +388,13 @@ figure{
 }
 
 video{
-    margin:0 auto;
+    margin:auto;
     width:700px;
+}
+
+#JEP{
+    width:400px;
+    height:400px;
 }
 
 #comundi_img{
@@ -454,7 +459,6 @@ figcaption h5{
 
 .modal_m{
     display: none;
-    flex-direction: column;
     justify-content: center;
     position: fixed;
     z-index: 30;

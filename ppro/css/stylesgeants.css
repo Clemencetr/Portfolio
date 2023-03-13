@@ -1,0 +1,547 @@
+header{
+    display:flex;
+    flex-direction:column;
+}
+
+.paralR1{
+	width:100%;
+    top:-27px;
+    position:relative;
+	height:731px;
+	background:url(../images/la_chaussee_des_geants.jpg) no-repeat top fixed;
+    background-size:cover;
+}
+
+.cache{
+    background-color:white;
+    transform:skewY(2deg);
+    height: 54px;
+    position: relative;
+    top: -55px;
+}
+
+#bglogoR1{
+    background-color:rgba(255, 255, 255, 0.0);
+    height:86px;
+    width:230px;
+    position:absolute;
+    z-index:1;
+    top:5%;
+    left:5%;
+}
+
+.logoR1{
+    position:relative;
+    z-index:1;
+    width:280px;
+    height:95px;
+    top:2px;
+    left:6px;
+}
+
+#logoR1smart{
+    position:absolute;
+    top:3%; 
+    left:2%;
+    display:none;
+}
+
+#burger{
+    position:absolute;
+    outline-style:none;
+    width:42px;
+    height:42px;
+    top:10px;
+    right:5%;
+    cursor:pointer;
+    z-index:3;
+}
+
+#menu{
+    height:750px;
+    position:fixed;
+    top:0;
+    width:100%;
+    background-color:rgba(18,39,20,0.97);
+    z-index:2;
+    top:-780px;
+    padding-top:30px;
+}
+
+#menu ul{
+    text-align: center;
+    margin:0 auto;
+}
+
+#menu li{
+    text-align:center;
+    font-size:20px;
+    padding:25px 0;
+}
+
+
+#menu a{
+    font-family:'Bookman Old Style', arial;
+    text-decoration:none;
+    color:white;
+}
+
+#croix_b{
+    position:absolute;
+    width:30px;
+    height:auto;
+    top:10px;
+    margin-left:90%;
+    z-index:3;
+    top:10px;
+    display:none;
+}
+
+.barre{
+    height:2px;
+    background-color:white;
+    display:block;
+    margin:8px auto;
+    
+}
+
+#multi{
+    position:absolute;
+    z-index:5;
+    top:25px;
+    right:339px;
+    height:50px;
+    width:30px;
+    background-color:rgba(0, 0, 0, 0.3);
+    display:none;
+}
+
+#multi li{
+    text-align:center;
+    line-height:20px;
+}
+
+#multi a{
+    text-decoration:none;
+    color:white;
+}
+
+.vignettesS{
+    /*display:flex;
+    flex-direction:column;*/
+    position:absolute;
+    right:5%;
+    top:44%;
+    width:12px;
+    position:fixed;
+    z-index:1;
+    cursor:pointer;
+}
+
+.scroll{
+    background-color:white;
+    border-radius:50%;
+    width:12px;
+    height:12px;
+    margin-bottom:5px;
+}
+
+.scroll:hover{
+    opacity:.7;
+}
+
+main{
+    width:100%;
+}
+
+.wrapper{
+    width:80%;
+    margin:0 auto;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#Giants{
+    background-color:rgba(255,255,255,0.81);
+    position:relative;
+    top:-235px;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+   font-family: 'Amiri', serif;
+    font-variant:small-caps;
+    font-size:36px;
+    text-align:center;
+}
+
+.intro{
+    font-size:21px;
+    line-height:24px;
+}
+
+.intro:nth-child(2){
+    margin-top:50px;
+}
+
+.flexcont{
+    display:flex;
+    margin:90px  0;
+    justify-content:space-between;
+}
+
+.flexcont2{
+    display:flex;
+    justify-content:space-between;
+}
+
+.flexgauche{
+    margin-right:100px;
+    /*background-color:red;*/
+    width:37%;
+}
+
+.flexgauche2{
+    display:flex;
+    margin-top:120px;
+    width:47%;
+}
+
+.flexgauche img:last-child{
+    margin-top:110px;
+    height:auto;
+    width:450px;
+    max-width:100%;
+}
+
+.liste{
+    width:100%;
+}
+
+.flexgauche2 li{
+    list-style-type:disc;
+    font-size:23px;
+    line-height:28px;
+    width:100%;
+    font-family: 'Amiri', serif;
+}
+
+#photosupG img:first-child{
+    max-width:100%;
+    height:auto;
+    width:450px;
+}
+
+#photosupG{
+   /* max-width:90%;*/
+    height:340px;
+}
+
+#photosupG img:last-child{
+    position:relative;
+    /*height:auto;
+    max-width:46%;*/
+    height:auto;
+    width:180px;
+    margin-left:70%;
+    margin-top:-25%;
+    max-width:46%;
+}
+
+.flexdroite1{
+    font-size:23px;
+    /*background-color:red;*/
+    width:500px;
+}
+
+.flexdroite2{
+    font-size:23px;
+    /*background-color:red;*/
+    width:37%;
+}
+
+.flexdroite1 p{
+    margin-top:30px;
+    font-size:23px;
+    line-height:28px;
+    font-family: 'Amiri', serif;
+}
+
+h2{
+    font-family: 'Prompt', sans-serif;
+    margin:90px 0 10px 0;
+    font-size:38px;
+    font-variant:small-caps;
+}
+
+.line1{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#122714+0,546a23+100&1+0,0.7+100 */
+background: -moz-linear-gradient(top, rgba(18,39,20,1) 0%, rgba(84,106,35,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(18,39,20,1) 0%,rgba(84,106,35,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(18,39,20,1) 0%,rgba(84,106,35,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122714', endColorstr='#b3546a23',GradientType=0 ); /* IE6-9 */
+    width:787px;
+    height:3px;
+    margin-bottom:90px;
+}
+
+.line2{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#122714+0,546a23+100&1+0,0.7+100 */
+background: -moz-linear-gradient(top, rgba(18,39,20,1) 0%, rgba(84,106,35,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(18,39,20,1) 0%,rgba(84,106,35,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(18,39,20,1) 0%,rgba(84,106,35,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122714', endColorstr='#b3546a23',GradientType=0 ); /* IE6-9 */
+    width:671px;
+    height:3px;
+    margin-bottom:90px;
+}
+
+.line3{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#122714+0,546a23+100&1+0,0.7+100 */
+background: -moz-linear-gradient(top, rgba(18,39,20,1) 0%, rgba(84,106,35,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(18,39,20,1) 0%,rgba(84,106,35,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(18,39,20,1) 0%,rgba(84,106,35,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122714', endColorstr='#b3546a23',GradientType=0 ); /* IE6-9 */
+    width:383px;
+    height:3px;
+    margin-bottom:90px;
+}
+
+.line4{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#122714+0,546a23+100&1+0,0.7+100 */
+background: -moz-linear-gradient(top, rgba(18,39,20,1) 0%, rgba(84,106,35,0.7) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(18,39,20,1) 0%,rgba(84,106,35,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(18,39,20,1) 0%,rgba(84,106,35,0.7) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122714', endColorstr='#b3546a23',GradientType=0 ); /* IE6-9 */
+    width:482px;
+    height:3px;
+    margin-bottom:90px;
+}
+
+h3{
+    font-family: 'Prompt', sans-serif;
+    font-size:30px;
+    font-variant:small-caps;
+}
+
+.visite{
+    margin-bottom:90px;
+}
+
+#sintro{
+    font-size:23px;
+    line-height:28px;
+    font-family: 'Amiri', serif;
+}
+
+.visite p{
+    margin-top:30px;
+    font-size:23px;
+    line-height:28px;
+    font-family: 'Amiri', serif;
+}
+
+h4{
+    font-size:28px;
+    font-family: 'Prompt', sans-serif;
+    margin-top:80px;
+    font-variant:small-caps;
+}
+
+#panorama{
+    height:358px;
+    width:100%;
+    background:url(../images/ireland_causeway.jpg)no-repeat top;
+    background-size:cover;
+    transform:skewY(2deg);
+}
+
+#photosupD{
+    height:400px;
+    width:450px;
+    margin:70px auto 0;
+    max-width:100%;
+}
+
+#photosupD img:first-child{
+    height:auto;
+    width:450px;
+    max-width:100%;
+}
+
+#photosupD img:last-child{
+    height:auto;
+    width:180px;
+    /*height:auto;
+    width:50%;*/
+    position:relative;
+    bottom:220px;
+    left:20px;
+}
+
+.milieu{
+    display:flex;
+    width:100%;
+    top:40px;
+    position:relative;
+    justify-content:space-between;
+    display:none;
+}
+
+#items1 img{
+    width:198px;
+    height:auto;
+}
+
+#items2 img{
+    width:198px;
+    height:auto;
+}
+
+#items3 img{
+    width:198px;
+    height:auto;
+}
+
+#items4 img{
+    width:198px;
+    height:auto;
+}
+
+.flexdroite2 img:last-child{
+    width:450px;
+    height:auto;
+    max-width:100%;
+    margin-top:150px;
+}
+
+.geographie{
+    margin-bottom:220px;
+}
+
+iframe{
+    width:100%; 
+    height:746px; 
+    max-width:100%;
+}
+
+footer{
+    height:236px;
+}
+
+#foot{
+    position:relative;
+    background-color:#536a22;
+    height:236px;
+    width:100%;
+    transform:skewY(2deg);
+}
+
+#foot2{
+    background-color:#536a22;
+    position:relative;
+    height:90px;
+    width:100%;
+    bottom:60px;
+}
+
+#footon{
+    position:relative;
+    top:-280px;
+}
+
+#fcontainer{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.menufoot{
+    position:relative;
+    width:110px;
+  /*  bottom:280px;
+    left:15%;*/
+}
+
+.menufoot li{
+    line-height:17px;
+}
+
+.menufoot a{
+    text-decoration:none;
+    color:black;
+    font-size:13px;
+    font-family: 'Amiri', serif;
+    margin-left:5px;
+}
+
+h5{
+    font-family:'Bookman Old Style', arial;
+    font-size:15px;
+    margin-bottom:15px;
+    font-variant:small-caps;
+}
+
+.news{
+    position:relative;
+    width:200px;
+   /* bottom:375px;
+    left:42%;*/
+}
+
+form{
+    display:inline-block;
+}
+
+fieldset{
+    width:220px;
+}
+
+legend{
+    font-family: 'Amiri', serif;
+    font-size:13px;
+    width:170px;
+}
+
+input[type=email]{
+    margin-top:15px;
+    width:164px;
+    height:13px;
+}
+
+input[type=email]:placeholder-shown{
+    font-family: 'Amiri', serif;
+}
+
+input[type=submit]{
+    background-color:#122714;
+    color:white;
+    font-family: 'Amiri', serif;
+    font-size:12px;
+    border:none;
+}
+
+#rsociaux{
+    position:relative;
+    width:130px;
+   /* bottom:465px;
+    left:75%;*/
+}
+
+#rsociaux img{
+    width:25px;
+    height:24px;
+}
+
+footer p{
+    position:relative;
+    bottom:180px;
+    text-align:center;
+    font-family: 'Amiri', serif;
+    font-size:12px;
+}

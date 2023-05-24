@@ -1,0 +1,170 @@
+*{margin:0;}
+
+body{
+    background-color: #CBCBCB;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    width:600px;
+    height:1345px;
+    background-color:white;
+    margin:20px auto;
+    border-radius:7px;
+}
+
+header{
+    height:120px;
+    border-bottom:solid 1px #CBCBCB;
+}
+
+header img{
+    width:200px;
+    padding:15px
+}
+
+h1{
+    text-align:center;
+    padding:15px;
+    font-size:27px;
+    color:rgb(66,83,140);
+}
+
+#mainVisu{
+    text-align:center;
+}
+
+h2{
+    width:200px;
+    color:rgb(66,83,140);
+    font-size:16px;
+    line-height:30px;
+    padding:33px 0 15px 20px;
+}
+
+section p{
+    width:340px;
+    font-size:12px;
+}
+
+section h2, section div{
+    float:left;
+}
+
+section div{
+    padding:14px;
+}
+
+.cherClient{
+    padding-bottom:14px;
+}
+
+.bouton{
+        background-color:#F9BB2A;
+        color:white;
+        text-decoration:none;
+        font-size:12px;
+        text-align:center;
+        width:120px;
+        height:30px;
+        line-height:30px;
+        border-radius:15px;
+        border:solid 1px #F9BB2A;
+        display:inline-block;
+        margin-top:14px;
+}
+
+.bouton:hover{
+    color:#F9BB2A;
+    background-color:white;
+}
+
+.right{
+    text-align:right;
+    width:90%;
+    padding-right:14px;
+}
+
+#bandeauGris{
+    height:150px;
+    background-color:#2B2B2B;
+    color:white;
+    text-align:center;
+    margin-top:40px;
+}
+
+#bandeauGris img{
+    margin-top:-50px;
+}
+
+h3{
+    font-size:24px;
+    width:370px;
+    margin:15px auto;
+}
+
+#items{
+    background-color:#EFEFEF;
+    padding:30px 0 5px 0;
+    text-align:center;
+}
+
+.item{
+    background-color:white;
+    width:265px;
+    display:inline-block;
+    padding-bottom:7px;
+}
+
+/*nth-child: pseudo-élement qui cible un objet dans une série*/
+.item:nth-child(1){
+    margin-right:20px;
+}
+
+h4{
+    color:rgb(66,83,140);
+    border-bottom:solid 1px #CBCBCB;
+    width:200px;
+    margin: 0 auto;
+    line-height:30px;
+}
+
+.item p{
+    font-size:13px;
+    color:#666;
+    text-align:left;
+    padding:14px;
+}
+
+.item div{
+    text-align:right;
+}
+
+.more{
+    text-decoration:none;
+    color:#F9BB2A;
+    font-size:12px;
+    padding:14px;
+    font-weight:bold;
+}
+
+.more:hover{
+    text-decoration:underline;
+}
+
+footer{
+    text-align:center;
+    height:50px;
+    font-size:12px;
+    line-height:50px;
+    border-top:solid 1px #CBCBCB;
+}
+
+footer a{
+    text-decoration: none;
+    color:#2B2B2B;
+}
+
+footer a:hover{
+    color:#F9BB2A;
+}

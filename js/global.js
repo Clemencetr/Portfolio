@@ -304,7 +304,7 @@ $(function(){
 
     //si on clique sur le bouton, on ferme la modal en modifiant le css
     $(".close").on("click", function(){
-        $("#myModal12").css("display", "none");
+        $("#myModal11").css("display", "none");
     });
 
 

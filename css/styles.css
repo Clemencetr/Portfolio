@@ -314,21 +314,21 @@ figure{
     top:2px; 
 }
 
-#web1, #web2, #web3{
+#web1, #web2, #web3, #web4{
     cursor: pointer;
     transition: 0.3s;
     width:250px;
     opacity:0.6;
 }
 
-#web1:hover, #web2:hover, #web3:hover{opacity:1;}
+#web1:hover, #web2:hover, #web3:hover, #web4:hover{opacity:1;}
 
-#web_tab1, #web_tab2, #web_tab3{
+#web_tab1, #web_tab2, #web_tab3, #web_tab4{
     width: 290px;
     display:none;
 }
 
-#web_smart1, #web_smart2, #web_smart3{
+#web_smart1, #web_smart2, #web_smart3, #web_smart4{
     display:none;
 }
 
